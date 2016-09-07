@@ -1,3 +1,8 @@
 .imgslider {
 	max-height: 200px;
 }
+.logoimg{
+	max-height: 35px;
+	padding-top: 7px;
+	padding-left: 10px;
+}
