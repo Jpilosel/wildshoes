@@ -61,12 +61,21 @@
 }
 
 #formulaire{
-	text-align: center;
+	text-align: left;
+	
 
 }
 
 #txtformulaire{
-	text-align: left;
+	
+	
+}
+
+.form-horizontal{
+	margin-right: 50%;
+
+	
+
 }
 
 >>>>>>> 6801bd53531995f87f2c6d6324c0843a4765eae2
