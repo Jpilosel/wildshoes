@@ -28,7 +28,7 @@
 }
 
 .img-1 {
-	height: 400px;
+	max-height: 300px;
 	border-radius: 5px;
 	padding: 5px 5px 5px 5px;
 	margin: 0px 15px 0px 5px;
