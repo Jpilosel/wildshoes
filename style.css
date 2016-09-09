@@ -36,11 +36,13 @@
 .text-bottes {
 	font-size: 1.5em;
 	text-align: justify;
+	margin : 0px 30px 0px 30px;
 }
 
 .text-personna {
 	font-size: 1.5em;
 	text-align: justify;
+	margin : 0px 30px 0px 30px;
 }
 
 =======
@@ -67,6 +69,8 @@
 .text-chausse {
 	font-size: 1.5em;
 	text-align: justify;
+	margin : 0px 30px 0px 30px;
 }
+
 
 >>>>>>> 6801bd53531995f87f2c6d6324c0843a4765eae2
