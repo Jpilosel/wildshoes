@@ -9,6 +9,7 @@
 	padding-left: 10px;
 	padding-right: 5px;
 }
+<<<<<<< HEAD
 .qui-sommes-nous {
 	height: 100px;
 	text-align: center;
@@ -28,3 +29,24 @@
 	padding: 2px 2px 2px 2px;
 
 }
+=======
+#slider{
+	margin-top: 50px;
+
+}
+
+.navbar {
+  margin-left: 15px;
+  
+}
+
+#titrechausse{
+	text-align: center;
+	background-color: #331a00;
+	color: #ffffff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+}
+
+>>>>>>> 6801bd53531995f87f2c6d6324c0843a4765eae2
