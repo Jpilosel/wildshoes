@@ -9,16 +9,17 @@
 	padding-left: 10px;
 	padding-right: 5px;
 }
-<<<<<<< HEAD
-.qui-sommes-nous {
-	height: 100px;
+
+.title-banner{		<!---------- titre des sections ------------>
+	height: 80px;
 	text-align: center;
 	font-size: 2.5em;
-	padding-top: 20px;
-	background-color: grey;
+	color: #ffffff;
+	padding-top: 30px;
+	background-color: #331a00;
 }
 
-.text-1 {
+.text-presentation {
 	font-size: 1.5em;
 	text-align: justify;
 }
@@ -29,6 +30,12 @@
 	padding: 2px 2px 2px 2px;
 
 }
+
+.text-bottes {
+	font-size: 1.5em;
+	text-align: justify;
+}
+
 =======
 #slider{
 	margin-top: 50px;
@@ -40,17 +47,19 @@
   
 }
 
-#titrechausse{
+.titrechausse {
+	height: 100px;
 	text-align: center;
 	background-color: #331a00;
 	color: #ffffff;
-	padding-top: 5px;
+	padding-top: 20px;
 	padding-bottom: 5px;
 
 }
 
-#txtchausse{
-	
+.text-chausse {
+	font-size: 1.5em;
+	text-align: justify;
 }
 
 >>>>>>> 6801bd53531995f87f2c6d6324c0843a4765eae2
