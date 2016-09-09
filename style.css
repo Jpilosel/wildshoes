@@ -17,11 +17,14 @@
 .navbar {
   margin-left: 15px;
   
-
- 
 }
 
-.carousel-inner {
-  
-  
+#titrechausse{
+	text-align: center;
+	background-color: #331a00;
+	color: #ffffff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
 }
+
