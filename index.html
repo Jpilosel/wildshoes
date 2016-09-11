@@ -8,7 +8,13 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-       
+        <script>
+          function disBonjour() {
+            var prenom = document.getElementById('prenom').value;
+            var nom = document.getElementById('nom').value;
+            document.getElementById('resultat').innerHTML ='Bonjour ' + prenom + ' ' + nom + ' ' + ', merci pour votre message. Nous vous répondons dans les 48 heures.'
+          }
+        </script>
     </head>
 
     <body>
@@ -268,38 +274,39 @@
             </div>
             <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12" id="formulaire"> <!-- formulaire !-->
               <div class="container">              
-                <form class="form-horizontal" role="form">
-                  <div class="form-group">
-                      <label class="col-lg-3 control-label">Nom:</label>
-                    <div class="col-lg-8">
-                      <input class="form-control" type="text" value="Dupont">
+                  <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label class="col-lg-3 control-label">Nom</label>
+                      <div class="col-lg-8">
+                        <input class="form-control" type="text" id="nom">
+                      </div>
                     </div>
-                  </div>
-                  <div class="form-group">
-                      <label class="col-lg-3 control-label">Pénom</label>
-                    <div class="col-lg-8">
-                      <input class="form-control" type="text" value="Guillaume">
+                    <div class="form-group">
+                        <label class="col-lg-3 control-label">Prénom</label>
+                      <div class="col-lg-8">
+                        <input class="form-control" type="text" id="prenom" ">
+                      </div>
                     </div>
-                  </div>
-                  <div class="form-group">
-                      <label class="col-lg-3 control-label">Email</label>
-                    <div class="col-lg-8">
-                      <input class="form-control" type="text" value="contact@wildshoes.fr">
+                    <div class="form-group">
+                        <label class="col-lg-3 control-label">Email</label>
+                      <div class="col-lg-8">
+                        <input class="form-control" type="text">
+                      </div>
                     </div>
-                  </div>
-                  <div class="form-group">
-                      <label class="col-lg-3 control-label">Commentaire</label>
-                    <div class="col-lg-8">
-                      <textarea class="form-control" rows="3"></textarea>
+                    <div class="form-group">
+                        <label class="col-lg-3 control-label">Commentaire</label>
+                      <div class="col-lg-8">
+                        <textarea class="form-control" rows="3"></textarea>
+                      </div>
+                    </div>                        
+                    <div class="form-group">
+                        <label class="col-lg-3 control-label"></label>
+                      <div class="col-lg-8">
+                        <input type="button" class="btn btn-primary" value="Envoyer" onclick="disBonjour(); return false">                      
+                      </div>
                     </div>
-                  </div>                        
-                  <div class="form-group">
-                      <label class="col-lg-3 control-label"></label>
-                    <div class="col-lg-8">
-                      <input type="button" class="btn btn-primary" value="Envoyer">                      
-                    </div>
-                  </div>
-                </form>      
+                  </form>
+                <span id="resultat"></span>
               </div>
                                    
                   
