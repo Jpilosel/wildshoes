@@ -1,34 +1,52 @@
 .imgslider {
 	max-height: 400px;
-	
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 50px;
 }
+
 .logoimg{
 	max-height: 35px;
 	padding-top: 7px;
 	padding-left: 10px;
 	padding-right: 5px;
 }
-<<<<<<< HEAD
-.qui-sommes-nous {
-	height: 100px;
+
+.title-banner{		<!---------- titre des sections ------------>
+	height: 150px;
 	text-align: center;
 	font-size: 2.5em;
-	padding-top: 20px;
-	background-color: grey;
+	color: #ffffff;
+	margin-top: 15px;
+	background-color: #331a00;
 }
 
-.text-1 {
+.text-presentation {
 	font-size: 1.5em;
 	text-align: justify;
+	margin: 5px 15px 5px 15px;
 }
 
 .img-1 {
-	height: 400px;
+	max-height: 300px;
 	border-radius: 5px;
-	padding: 2px 2px 2px 2px;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 15px 0px 5px;
 
 }
+
+.text-bottes {
+	font-size: 1.5em;
+	text-align: justify;
+	margin : 15px 30px 0px 30px;
+}
+
+.text-personna {
+	font-size: 1.5em;
+	text-align: justify;
+	margin : 15px 30px 0px 30px;
+}
+
 =======
 #slider{
 	margin-top: 50px;
@@ -40,28 +58,34 @@
   
 }
 
-#titrechausse{
+.titrechausse {
+	height: 100px;
 	text-align: center;
 	background-color: #331a00;
 	color: #ffffff;
-	padding-top: 5px;
+	padding-top: 20px;
 	padding-bottom: 5px;
 
 }
 
-#txtchausse{
-	
+.text-chausse {
+	font-size: 1.5em;
+	text-align: justify;
+	margin : 0px 30px 0px 30px;
 }
+
 
 
 #oppenstreet{
 	padding-left: 5%;
-	
+	padding-top: 20px;
 }
 
 
 #formulaire{
 	text-align: left;
+	padding-top: 20px;
+
 
 	
 
@@ -75,5 +99,11 @@
 	margin-right: 50%;
 }
 
+#resultat{
+	padding-left: 5%;
+	font-family: arial;
+	padding-bottom: 20px
 
->>>>>>> 6801bd53531995f87f2c6d6324c0843a4765eae2
+}
+
+
