@@ -24,11 +24,43 @@
 	background-color: #331a00;
 }
 
+					<!---------------- textes ---------------->
+
 .text-presentation {
 	font-size: 1.5em;
 	text-align: justify;
-	margin: 5px 15px 5px 15px;
+	padding: 5px 15px 5px 15px;
 }
+
+.text-bottes {
+
+}
+
+.text-personna {
+
+}
+
+.txtintro{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 1.5em;
+	text-align: justify;
+}
+
+.text-chausse {
+
+}
+.titrechausse {
+	height: 100px;
+	text-align: center;
+	background-color: #331a00;
+	color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 5px;
+
+}
+					<!---------------- images ---------------->
+
 
 .img-1 {
 
@@ -37,20 +69,15 @@
 	padding: 5px 5px 5px 5px;
 	margin: 0px 15px 0px 5px;
 
-
 }
 
-.text-bottes {
-	font-size: 1.5em;
-	text-align: justify;
-	margin : 15px 30px 0px 30px;
+.thumbnail {
+	box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
 }
 
-.text-personna {
-	font-size: 1.5em;
-	text-align: justify;
-	margin : 15px 30px 0px 30px;
-}
+
+
+
 .thumbnail{
 	height: 650px;
 }
@@ -61,26 +88,14 @@
 
 }
 
+
 .navbar {
   margin-left: 15px;
   
 }
 
-.titrechausse {
-	height: 100px;
-	text-align: center;
-	background-color: #331a00;
-	color: #ffffff;
-	padding-top: 20px;
-	padding-bottom: 5px;
 
-}
 
-.text-chausse {
-	font-size: 1.5em;
-	text-align: justify;
-	margin : 0px 30px 0px 30px;
-}
 
 
 
