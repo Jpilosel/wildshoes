@@ -71,16 +71,29 @@
 
 }
 
+.modal_img {
+	max-width: 450px;
+	padding: auto;
+	border-radius: 10px;
+
+}
+.modal_img_int {
+	text-align: center;
+
+}
+
 .thumbnail {
 	box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
-}
-
-
-
-
-.thumbnail{
+	padding: 10px 10px 10px 10px;
+	max-width: 600px;
 	height: 650px;
 }
+
+.thumbnail img {
+	max-height: 200px;
+}
+}
+
 
 =======
 #slider{
