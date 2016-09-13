@@ -1,5 +1,8 @@
+.container-fluid{
+	
+}
+
 .imgslider {
-	max-height: 400px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 50px;
@@ -28,10 +31,12 @@
 }
 
 .img-1 {
-	max-height: 300px;
+
+	width : 300px;
 	border-radius: 5px;
 	padding: 5px 5px 5px 5px;
 	margin: 0px 15px 0px 5px;
+
 
 }
 
@@ -45,6 +50,9 @@
 	font-size: 1.5em;
 	text-align: justify;
 	margin : 15px 30px 0px 30px;
+}
+.thumbnail{
+	height: 650px;
 }
 
 =======
