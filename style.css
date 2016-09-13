@@ -1,8 +1,13 @@
-.imgslider {
-	max-height: 400px;
+.container-fluid{
 	
+}
+
+.imgslider {
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 50px;
 }
+
 .logoimg{
 	max-height: 35px;
 	padding-top: 7px;
@@ -26,10 +31,12 @@
 }
 
 .img-1 {
-	height: 400px;
+
+	width : 300px;
 	border-radius: 5px;
 	padding: 5px 5px 5px 5px;
 	margin: 0px 15px 0px 5px;
+
 
 }
 
@@ -43,6 +50,9 @@
 	font-size: 1.5em;
 	text-align: justify;
 	margin : 15px 30px 0px 30px;
+}
+.thumbnail{
+	height: 650px;
 }
 
 =======
@@ -76,12 +86,14 @@
 
 #oppenstreet{
 	padding-left: 5%;
-	
+	padding-top: 20px;
 }
 
 
 #formulaire{
 	text-align: left;
+	padding-top: 20px;
+
 
 	
 
@@ -95,5 +107,11 @@
 	margin-right: 50%;
 }
 
+#resultat{
+	padding-left: 5%;
+	font-family: arial;
+	padding-bottom: 20px
+
+}
 
 
