@@ -14,6 +14,10 @@ body {
 	padding-top: 99px;
 	
 }
+.carou{
+	
+	height: 339px;
+}
 
 .logoimg{
 	max-height: 45px;
@@ -29,7 +33,7 @@ body {
 	font-family: Raleway, verdana, serif;
 	font-variant: small-caps;
 	color: #ffffff;
-	margin-top: 15px;
+	margin-top: 95px;
 	margin-bottom: 20px;
 	background-image: url(images/lanniere_cuir2.jpg);
 	background-size: 33px;
