@@ -28,17 +28,18 @@ body {
 .title-banner{		<!---------- titre des sections ------------>
 	height: 0px;
 	text-align: center;
-	font-size: 2.5em;
-	font-family: Raleway, verdana, serif;
+	font-size: 3.5em;
+	font-family: 'Julius Sans One', sans-serif;
+	font-style: bold;
 	font-variant: small-caps;
 	color: #ffffff;
 	margin-top: 15px;
 	margin-bottom: 20px;
-	background-image: url(images/lanniere_cuir2.jpg);
+	/*background-image: url(images/lanniere_cuir2.jpg);*/
 	background-size: 33px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	/*box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);*/
 }
 
 					<!---------------- textes ---------------->
@@ -53,10 +54,10 @@ body {
 
 .txtintro {
 	padding: 15px 20px 20px 20px;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	text-align: justify;
-	font-family: josefin, verdana, arial, serif;
-	font-style: ;
+	font-family: 'Poiret One', cursive;
+	font-style: bold;
 }
 
 .lettrine {
@@ -131,8 +132,10 @@ body {
 
 .navbar {
 	min-height: 100px;
-	font-family: Raleway, verdana, serif;
+	font-family: 'Julius Sans One', sans-serif;
 	font-weight: ;
+	color: black;
+	letter-spacing: ;
 
 }
 
