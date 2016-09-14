@@ -1,3 +1,6 @@
+body {
+	background-image: url("images/concrete_seamless.png");
+}
 
 .container-fluid{
 	
@@ -17,22 +20,17 @@
 }
 
 .title-banner{		<!---------- titre des sections ------------>
-	height: 150px;
+	height: 0px;
 	text-align: center;
 	font-size: 2.5em;
 	color: #ffffff;
 	margin-top: 15px;
 	background-color: #331a00;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-.titrechausse {
-	height: 100px;
-	text-align: center;
-	background-color: #331a00;
-	color: #ffffff;
-	padding-top: 20px;
-	padding-bottom: 5px;
-}
+
 
 					<!---------------- textes ---------------->
 
@@ -75,22 +73,12 @@
 	border-radius: 10px;
 }
 
-.text-bottes {
-	font-size: 1.5em;
-	text-align: justify;
-	margin : 15px 0 0px 30px;
 
-}
 .modal_img_int {
 	text-align: center;
 }
 
-.text-personna {
-	font-size: 1.5em;
-	text-align: justify;
-	margin : 15px 0 0px 30px;
 
-}
 
 .thumbnail {
 	box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
@@ -108,7 +96,6 @@
 
 
 #slider{
-	margin-top: 50px;
 
 }
 
@@ -167,8 +154,6 @@
 
 }
 
-.row{
-	padding-top: 20px;
-}
+
 
 
