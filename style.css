@@ -68,14 +68,27 @@
 
 }
 
+
 .modal_img {
 	max-width: 450px;
 	padding: auto;
 	border-radius: 10px;
+}
+
+.text-bottes {
+	font-size: 1.5em;
+	text-align: justify;
+	margin : 15px 0 0px 30px;
 
 }
 .modal_img_int {
 	text-align: center;
+}
+
+.text-personna {
+	font-size: 1.5em;
+	text-align: justify;
+	margin : 15px 0 0px 30px;
 
 }
 
@@ -93,7 +106,7 @@
 }
 
 
-=======
+
 #slider{
 	margin-top: 50px;
 
@@ -101,13 +114,29 @@
 
 
 .navbar {
-  margin-left: 15px;
-  
+
 }
 
 
+.navbar-inverse {
+  background-color: #331a00;
+ 
+}
 
+.titrechausse {
+	height: 100px;
+	text-align: center;
+	background-color: #331a00;
+	color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
 
+.text-chausse {
+	font-size: 1.5em;
+	text-align: justify;
+	margin : 0px 0 0px 30px;
+}
 
 
 #oppenstreet{
@@ -119,7 +148,7 @@
 #formulaire{
 	text-align: left;
 	padding-top: 20px;
-
+	padding-left: 70px;
 
 	
 
@@ -138,6 +167,10 @@
 	font-family: arial;
 	padding-bottom: 20px
 
+}
+
+.row{
+	padding-top: 20px;
 }
 
 
