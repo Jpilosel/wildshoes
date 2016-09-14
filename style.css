@@ -19,6 +19,11 @@ body {
 	height: 339px;
 }
 
+.carousel-caption{
+	color: #F2D085;
+	
+}
+
 .logoimg{
 	max-height: 45px;
 	margin-top: 15px;
