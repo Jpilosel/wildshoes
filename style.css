@@ -1,3 +1,5 @@
+
+
 body {
 	background-image: url("images/concrete_seamless.png");
 }
@@ -23,13 +25,14 @@ body {
 	height: 0px;
 	text-align: center;
 	font-size: 2.5em;
-	font-family: verdana, Arial, Times, serif;
+	font-family: Raleway, verdana, serif;
 	font-variant: small-caps;
 	color: #ffffff;
 	margin-top: 15px;
 	background-color: #331a00;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -98,6 +101,8 @@ body {
 
 .navbar {
 	min-height: 100px;
+	font-family: Raleway, verdana, serif;
+	font-weight: bold;
 }
 
 .navbar-collapse {
