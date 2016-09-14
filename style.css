@@ -7,11 +7,14 @@ body {
 .container-fluid {
 	
 }
+.row {
+	height: 80px;
+}
 
 .imgslider {
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 99px;
+	padding-top: 0px;
 	
 }
 
@@ -129,7 +132,8 @@ body {
 .navbar {
 	min-height: 100px;
 	font-family: Raleway, verdana, serif;
-	font-weight: bold;
+	font-weight: ;
+
 }
 
 .navbar-collapse {
@@ -138,9 +142,16 @@ body {
 }
 
 .navbar-inverse {
-  background-color: #331a00;
- 
+  background: transparent;
+  margin-bottom: 100px;
+  border-color: transparent;
 }
+
+/*.navbar-nav li {
+	border-bottom: 1px solid transparent;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}*/
 
 .titrechausse {
 	height: 100px;
