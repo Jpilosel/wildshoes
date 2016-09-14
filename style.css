@@ -28,18 +28,20 @@ body {
 .title-banner{		<!---------- titre des sections ------------>
 	height: 0px;
 	text-align: center;
-	font-size: 3.5em;
+	font-size: 4em;
 	font-family: 'Julius Sans One', sans-serif;
 	font-style: bold;
 	font-variant: small-caps;
 	color: #ffffff;
 	margin-top: 15px;
 	margin-bottom: 20px;
+	background-color: grey;
 	/*background-image: url(images/lanniere_cuir2.jpg);*/
-	background-size: 33px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	/*background-size: 33px;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
 	/*box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);*/
+
 }
 
 					<!---------------- textes ---------------->
@@ -60,9 +62,6 @@ body {
 	font-style: bold;
 }
 
-.lettrine {
-	font-size: 2em;
-}
 					<!---------------- images ---------------->
 
 
@@ -77,16 +76,10 @@ body {
 	border: 5px solid #ffffff;
 }
 
-.img-2 {
-	max-width: 400px;
-	border-radius: 5px;
-	background-color: #ffffff;
-	padding: 5px 5px 5px 5px;
-
-}
 
 .modal_img {
-	max-width: 450px;
+	max-width: 300px;
+	max-height: 200px;
 	padding: auto;
 	border-radius: 10px;
 }
@@ -94,6 +87,7 @@ body {
 
 .modal_img_int {
 	text-align: center;
+	max-height: 200px;
 }
 
 .thumbnail {
@@ -101,7 +95,7 @@ body {
 	border-radius: 8px;
 	padding: 10px 10px 10px 10px;
 	max-width: 600px;
-	height: 500px;
+	height: 600px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -110,6 +104,7 @@ body {
 
 .thumbnail img {
 	height: 200px;
+	max-height: 200px;
 	border-radius: 10px;
 }
 
@@ -131,11 +126,9 @@ body {
 
 
 .navbar {
-	min-height: 100px;
+	min-height: 80px;
 	font-family: 'Julius Sans One', sans-serif;
 	font-weight: ;
-	color: black;
-	letter-spacing: ;
 
 }
 
@@ -145,16 +138,11 @@ body {
 }
 
 .navbar-inverse {
-  background: transparent;
-  margin-bottom: 100px;
-  border-color: transparent;
+ 	background: rgba(0, 0, 0, 0.755);
+	margin-bottom: 100px;
+ 	border-color: transparent;
 }
 
-/*.navbar-nav li {
-	border-bottom: 1px solid transparent;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-}*/
 
 .titrechausse {
 	height: 100px;
