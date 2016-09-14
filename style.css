@@ -21,8 +21,17 @@ body {
 
 .carousel-caption{
 	color: #F2D085;
-	
+
 }
+
+.carousel-control {
+  padding-top: 500px;
+  color: #F2D085;
+}
+.carousel-indicators{
+
+}
+
 
 .logoimg{
 	max-height: 45px;
@@ -117,15 +126,18 @@ body {
 	min-height: 100px;
 	font-family: Raleway, verdana, serif;
 	font-weight: bold;
+
 }
 
 .navbar-collapse {
 	padding-top: 20px;
 	font-size: 25px;
+	
 }
 
 .navbar-inverse {
   background-color: #331a00;
+
  
 }
 
