@@ -29,7 +29,8 @@ body {
 	font-variant: small-caps;
 	color: #ffffff;
 	margin-top: 15px;
-	background-color: #331a00;
+	background-image: url(images/lanniere_cuir2.jpg);
+	background-size: 33px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -77,21 +78,25 @@ body {
 	text-align: center;
 }
 
-
-
 .thumbnail {
 	box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
 	padding: 10px 10px 10px 10px;
 	max-width: 600px;
 	height: 650px;
 
 }
 
+
+
 .thumbnail img {
-	max-height: 200px;
+	height: 200px;
 }
 		
-
+.thumbnail2 img {
+	height: 200px;
+}
+	
 
 
 #slider{
