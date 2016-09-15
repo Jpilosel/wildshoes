@@ -1,8 +1,8 @@
 
 
 body {
-	background-image: url("images/concrete_seamless.png");
-	position: relative;
+	background-image: url("images/footer_lodyas.png");
+	background-attachment: fixed; ;
 }
 
 .container-fluid {
@@ -34,7 +34,9 @@ body {
 	color: #ffffff;
 	margin-top: 15px;
 	margin-bottom: 20px;
-	background-color: grey;
+	border-bottom: 1px solid #8e8b86;
+	border-top: 1px solid #8e8b86;
+	background-color:rgba(142, 139, 134, 0.2);
 	/*background-image: url(images/lanniere_cuir2.jpg);*/
 	/*background-size: 33px;*/
 	padding-top: 10px;
@@ -59,6 +61,7 @@ body {
 	text-align: justify;
 	font-family: 'Poiret One', cursive;
 	font-style: bold;
+	color: #ffffff;
 }
 
 					<!---------------- images ---------------->
@@ -94,7 +97,7 @@ body {
 	border-radius: 8px;
 	padding: 10px 10px 10px 10px;
 	max-width: 600px;
-	height: 600px;
+	height: 460px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -172,6 +175,7 @@ body {
 	text-align: left;
 	padding-top: 20px;
 	padding-left: 70px;
+	color: #ffffff;
 
 }
 
