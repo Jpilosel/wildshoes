@@ -17,6 +17,24 @@ body {
 	padding-top: 0px;
 	
 }
+.carou{
+	
+	height: 339px;
+}
+
+.carousel-caption{
+	color: #F2D085;
+
+}
+
+.carousel-control {
+  padding-top: 500px;
+  color: #F2D085;
+}
+.carousel-indicators{
+
+}
+
 
 .logoimg{
 	max-height: 45px;
@@ -32,8 +50,8 @@ body {
 	font-family: 'Julius Sans One', sans-serif;
 	font-style: bold;
 	font-variant: small-caps;
-	color: #ffffff;
-	margin-top: 15px;
+	color: #F2D085;
+	margin-top: 95px;
 	margin-bottom: 20px;
 	background-color: grey;
 	/*background-image: url(images/lanniere_cuir2.jpg);*/
@@ -130,11 +148,14 @@ body {
 	font-family: 'Julius Sans One', sans-serif;
 	font-weight: ;
 
+
+
 }
 
 .navbar-collapse {
 	padding-top: 20px;
 	font-size: 25px;
+	
 }
 
 .navbar-inverse {
