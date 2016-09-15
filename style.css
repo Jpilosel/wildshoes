@@ -151,24 +151,22 @@ body {
 .navbar {
 	min-height: 80px;
 	font-family: 'Julius Sans One', sans-serif;
-	font-weight: ;
+	
 
 
 
 }
 
 .navbar-collapse {
-	padding-top: 20px;
-	font-size: 25px;
+	padding-top: 15px;
+	font-size: 21px;
 	
 }
 
 .navbar-inverse {
  	background: rgba(0, 0, 0, 0.755);
 	margin-bottom: 100px;
- 	border-color: transparent;
- 	background-color: ;
-	text-transform: ;
+ 	
 	
 }
 
