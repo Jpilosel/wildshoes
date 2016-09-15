@@ -19,7 +19,10 @@ body {
 }
 .carou{
 	
-	height: 339px;
+	height: auto;
+	margin: 0;
+	
+
 }
 
 .carousel-caption{
@@ -28,7 +31,7 @@ body {
 }
 
 .carousel-control {
-  padding-top: 500px;
+  padding-top: 100px;
   color: #F2D085;
 }
 .carousel-indicators{
@@ -51,7 +54,7 @@ body {
 	font-style: bold;
 	font-variant: small-caps;
 	color: #F2D085;
-	margin-top: 95px;
+	
 	margin-bottom: 20px;
 	background-color: grey;
 	/*background-image: url(images/lanniere_cuir2.jpg);*/
