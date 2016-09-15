@@ -4608,11 +4608,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 	color:  #fff
 }
 .navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:focus {	/* Color uppercase navbar */
+.navbar-inverse .navbar-nav > li > a:focus {	/* Color border navbar */
   color: #fff;
   background-color: transparent;
-text-transform: uppercase;
-border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,

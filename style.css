@@ -2,14 +2,13 @@
 
 body {
 	background-image: url("images/concrete_seamless.png");
+	position: relative;
 }
 
 .container-fluid {
-	
 }
-.row {
-	height: 80px;
-}
+
+/* remove class row*/
 
 .imgslider {
 	margin-left: auto;
@@ -141,6 +140,9 @@ body {
  	background: rgba(0, 0, 0, 0.755);
 	margin-bottom: 100px;
  	border-color: transparent;
+ 	background-color: ;
+	text-transform: ;
+	
 }
 
 

@@ -8,7 +8,6 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,800,700,900' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Julius+Sans+One|Poiret+One" rel="stylesheet"> 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -23,10 +22,18 @@
         <link rel="shortcut icon" type="image/x-icon" href="images/logow.png" />
     </head>
 
-    <body>
+    <body data-spy="scroll" data-target="#navbarscroll">
     <div class="container-fluid">
         <div class="row"> <!-- navbar !-->
-            
+            <script>
+            	$('body').scrollspy({ target: '#navbarscroll' })
+
+            	$('[data-spy="scroll"]').each(function () {
+  					var $spy = $(this).scrollspy('refresh')
+				})
+				
+            </script>
+
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <nav class="navbar navbar-inverse navbar-fixed-top">
                   <div class="container-fluid">
@@ -39,7 +46,7 @@
                       <img class="logoimg " src="images/logo.png" alt="logo">
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
-                      <ul class="nav navbar-nav">
+                      <ul class="nav navbar-nav nav-tabs">
                         <li><a href="#Qui_sommes_nous">Qui sommes nous ?</a></li>
                         <li><a href="#Nos_chausse_pied">Nos chausse-pieds</a></li>
                         <li><a href="#Nos_tire_botte">Nos tire-bottes</a></li> 
@@ -226,7 +233,7 @@
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <div class="modal_img_int"><img class="modal_img" src="images/chausse_corne2.jpeg" alt="chausse-en corne"/></div>
+                        <div class="modal_img_int"><img class="modal_img" src="images/chausse-corne2.jpg" alt="chausse-en corne"/></div>
                         <h4 class="modal-title" id="myModalLabel">Description de mon produit</h4>
                       </div>
                       <div class="modal-body">
@@ -356,7 +363,7 @@
                           <div class="modal-content">
                             <div class="modal-header">
                               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                              <div class="modal_img_int"><img class="modal_img" src="images/tirebotte-bois.jpeg" alt="chausse-pied métal"/></div>
+                              <div class="modal_img_int"><img class="modal_img" src="images/tirebotte-bois.jpeg" alt="tirre-botte en bois"/></div>
                               <h4 class="modal-title" id="myModalLabel">Description de mon produit</h4>
                             </div>
                             <div class="modal-body">
@@ -432,7 +439,7 @@
             <div class="thumbnail">
 
               <a href="#" data-toggle="modal" data-target="#myModal8" role="button">
-              <img class=img-responsive src="images/shoes.jpg" alt="shoes">
+              <img class=img-responsive src="images/shoes.jpg" alt="shoes"></a>
               <div class="caption">
                   <h3>Exemple personnalisation</h3>
                   <p>Et quia Mesopotamiae tractus omnes crebro inquietari sueti praetenturis et stationibus servabantur agrariis, laevorsum flexo itinere Osdroenae subsederat extimas partes.</p>
@@ -468,7 +475,7 @@
             <div class="thumbnail">
 
             <a href="#" data-toggle="modal" data-target="#myModal9" role="button">
-            <img class=img-responsive src="images/boots.jpg" alt="boots"></a>
+            <img class=img-responsive src="images/shoes2.jpg" alt="boots"></a>
 
               <div class="caption">
                   <h3>Exemple personnalisation</h3>
@@ -505,7 +512,7 @@
             <div class="thumbnail">
 
             <a href="#" data-toggle="modal" data-target="#myModal10" role="button">
-            <img class=img-responsive src="images/vintage.jpg" alt="shoes vintage"></a>
+            <img class=img-responsive src="images/chausse-corne5.jpg" alt="shoes vintage"></a>
 
               <div class="caption">
                   <h3>Exemple personnalisation</h3>
