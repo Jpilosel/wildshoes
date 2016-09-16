@@ -134,9 +134,8 @@ body {
 .modal-body {
 	font-size: 1.2em;
 	font-family: josefin, verdana, arial, serif;
-	font-style: italic;
 	text-align: justify;
-	line-height: 1em;
+	
 }
 .caption p {
 	font-size: 1.2em;
