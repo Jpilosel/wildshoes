@@ -25,13 +25,26 @@ body {
 }
 
 .carousel-caption{
-	color: #F2D085;
+	color: #000;
+	font-family: 'Julius Sans One', sans-serif;
+	padding-bottom: 110px;
+	margin-left: 350px; 
+	margin-bottom: 30px;
+	border-radius: 10px;
+	height: 100px;
+	width: 270px;
+
+	
+	
+	
+	
+	
 
 }
 
 .carousel-control {
   padding-top: 100px;
-  color: #F2D085;
+  color: #ffffff;
 }
 .carousel-indicators{
 
@@ -96,7 +109,7 @@ body {
 	min-height: 300px;
 	max-height: 500px;
 	border-radius: 5px;
-	border: 5px solid #ffffff;
+	border: 2px solid #ffffff;
 }
 
 
@@ -135,6 +148,7 @@ body {
 	font-size: 1.2em;
 	font-family: josefin, verdana, arial, serif;
 	text-align: justify;
+	color:black;
 	
 }
 .caption p {
@@ -219,11 +233,13 @@ body {
 	max-width: 40px;
 }
 
-.footer{
-	padding-top: 20px
-	margin-bottom:30px;
+.imgbanq{
+	margin-left: 28%;
+	padding-top: 15px;
+	padding-bottom: 20px;
+
 }
+@grid-float_breakpoint {
 
-
-
+}
 
